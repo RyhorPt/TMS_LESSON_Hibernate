@@ -22,7 +22,7 @@
   <dependencies>
     <dependency>
       <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
+      <artifactId>spring-webmvc</artifactId>
       <version>5.3.8</version>
     </dependency>
     <dependency>
@@ -46,9 +46,9 @@
       <version>5.1.6.RELEASE</version>
     </dependency>
     <dependency>
-      <groupId>org.postgresql</groupId>
-      <artifactId>postgresql</artifactId>
-      <version>42.3.4</version>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.28</version>
     </dependency>
     <dependency>
       <groupId>org.apache.tomcat</groupId>
